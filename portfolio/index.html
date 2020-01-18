@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en" id="home">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#home" class="navbar-brand page-scroll">Home</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" class="page-scroll">About</a></li>
+                    <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+                    <li><a href="#contact" class="page-scroll">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Jumbotron Start-->
+    <div class="jumbotron text-center">
+        <img src="img/eca_small.png" alt="My Profile" class="img-circle">
+        <h1>Hairun Nisa</h1>
+        <p>Blogger | Writer | English Tutor</p>
+    </div>
+    <!-- Jumbotron End -->
+
+    <!-- About Start -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>About</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row text-justify">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <p class="pLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis eveniet porro ipsa perspiciatis incidunt minima, deleniti facere est veniam magnam tenetur sunt nulla nesciunt quibusdam cupiditate officiis. Deserunt, in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore qui minima doloribus perspiciatis fugiat laudantium odit tempora, quas molestias, ea repellat pariatur dolores quo sapiente, unde deserunt? Placeat, reprehenderit.</p>
+                </div>
+                <div class="col-sm-5">
+                    <p class="pRight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam aliquam corrupti provident quidem obcaecati unde hic. Magni assumenda veniam odit cupiditate nisi reiciendis possimus, repellat tempora placeat eaque libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus officiis voluptatem nesciunt, a, non atque earum recusandae voluptates ullam quod fugiat error excepturi dignissimos numquam? Recusandae quisquam adipisci consectetur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Portfolio Start -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Portfolio</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3 col-sm-offset-2">
+                    <a href="" class="thumbnail"><img src="img/img01.png" alt="Image 1"></a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a href="" class="thumbnail"><img src="img/img02.png" alt="Image 1"></a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a href="" class="thumbnail"><img src="img/img03.png" alt="Image 1"></a>
+                </div>
+
+                <div class="col-sm-3 col-sm-offset-2">
+                    <a href="" class="thumbnail"><img src="img/img04.png" alt="Image 1"></a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a href="" class="thumbnail"><img src="img/img05.png" alt="Image 1"></a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a href="" class="thumbnail"><img src="img/img06.png" alt="Image 1"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio End -->
+
+    <!-- Contact Start -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Contact</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name :</label>
+                            <input type="text" id="name" class="form-control" placeholder="Please tell me who you are?">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email :</label>
+                            <input type="email" id="email" class="form-control" placeholder="Input your email address.">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">WA Number :</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Input your Whatsapp Number.">
+                        </div>
+                        <select class="form-control">
+                            <option>-- Choose Category --</option>
+                            <option>Blogging Stuff</option>
+                            <option>Writing Stuff</option>
+                            <option>Tutoring Stuff</option>
+                        </select>
+                        <div class="form-group">
+                            <label for="message">Message :</label>
+                            <textarea class="form-control" rows="5" placeholder="I'm ready to serve you. What can I do for you, My Lord?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p><i class="glyphicon glyphicon-copyright-mark"></i> 2020 | Hairun Nisa</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
